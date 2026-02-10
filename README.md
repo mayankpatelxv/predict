@@ -2,6 +2,12 @@
 
 A complete web application that uses AI to predict diseases based on symptoms and recommends appropriate doctors.
 
+## 🌐 Live Demo
+
+**[Visit Live Site →](https://your-deployed-site.vercel.app)** *(Deploy and update this link)*
+
+> **Note:** To deploy your own version, see the [Deployment](#-deployment) section below.
+
 ## 🚀 Features
 
 - **Modern React Frontend** with responsive design
@@ -208,6 +214,66 @@ curl -X POST http://localhost:5000/predict \
 - Integration with real medical APIs
 - Telemedicine features
 - Multi-language support
+
+## 🚀 Deployment
+
+### Deploy Frontend (Vercel - Recommended)
+
+1. **Push to GitHub** (already done!)
+2. **Go to [Vercel](https://vercel.com)**
+3. **Import your repository**: `mayankpatelxv/predict`
+4. **Configure:**
+   - Framework Preset: Create React App
+   - Build Command: `npm run build`
+   - Output Directory: `build`
+5. **Add Environment Variables:**
+   ```
+   REACT_APP_SUPABASE_URL=your_supabase_url
+   REACT_APP_SUPABASE_ANON_KEY=your_supabase_key
+   REACT_APP_ML_API_URL=your_backend_url
+   ```
+6. **Deploy!**
+
+### Deploy Backend (Render/Railway)
+
+**Option 1: Render**
+1. Go to [Render](https://render.com)
+2. New → Web Service
+3. Connect your GitHub repo
+4. Configure:
+   - Root Directory: `ml-backend`
+   - Build Command: `pip install -r requirements.txt`
+   - Start Command: `python app.py`
+5. Deploy!
+
+**Option 2: Railway**
+1. Go to [Railway](https://railway.app)
+2. New Project → Deploy from GitHub
+3. Select `ml-backend` directory
+4. Deploy!
+
+### Quick Deploy Commands
+
+```bash
+# Deploy frontend to Vercel
+npm install -g vercel
+vercel
+
+# Deploy backend to Render (using render.yaml)
+# Just connect your GitHub repo to Render
+```
+
+### After Deployment
+
+1. Update `REACT_APP_ML_API_URL` in Vercel with your backend URL
+2. Update the live demo link in README
+3. Test the complete flow!
+
+## 🔗 Links
+
+- **GitHub Repository**: https://github.com/mayankpatelxv/predict
+- **Live Demo**: *(Add your deployed URL here)*
+- **Documentation**: See [SETUP-GUIDE.md](SETUP-GUIDE.md)
 
 ## 🤝 Contributing
 
