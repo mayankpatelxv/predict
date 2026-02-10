@@ -4,9 +4,9 @@ A complete web application that uses AI to predict diseases based on symptoms an
 
 ## 🌐 Live Demo
 
-**[Visit Live Site →](https://your-deployed-site.vercel.app)** *(Deploy and update this link)*
+**[Visit Live Site →](https://mayankpatelxv.github.io/predict/)** 
 
-> **Note:** To deploy your own version, see the [Deployment](#-deployment) section below.
+> **Note:** The frontend is hosted on GitHub Pages. The ML backend needs to be running locally or deployed separately for full functionality.
 
 ## 🚀 Features
 
