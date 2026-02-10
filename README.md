@@ -1,12 +1,15 @@
 # AI Health Assistant
 
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-blue?style=for-the-badge)](https://mayankpatelxv.github.io/predict/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/mayankpatelxv/predict)
+
 A complete web application that uses AI to predict diseases based on symptoms and recommends appropriate doctors.
 
 ## 🌐 Live Demo
 
-**[Visit Live Site →](https://mayankpatelxv.github.io/predict/)** 
+### **[🚀 Visit Live Site](https://mayankpatelxv.github.io/predict/)**
 
-> **Note:** The frontend is hosted on GitHub Pages. The ML backend needs to be running locally or deployed separately for full functionality.
+> **Note:** The frontend is hosted on GitHub Pages. For full ML predictions, the backend needs to be running locally or deployed separately.
 
 ## 🚀 Features
 
@@ -271,9 +274,11 @@ vercel
 
 ## 🔗 Links
 
-- **GitHub Repository**: https://github.com/mayankpatelxv/predict
-- **Live Demo**: *(Add your deployed URL here)*
-- **Documentation**: See [SETUP-GUIDE.md](SETUP-GUIDE.md)
+- **🌐 Live Demo**: https://mayankpatelxv.github.io/predict/
+- **📦 GitHub Repository**: https://github.com/mayankpatelxv/predict
+- **📖 Documentation**: See [SETUP-GUIDE.md](SETUP-GUIDE.md)
+- **🚀 Deployment Guide**: See [DEPLOYMENT.md](DEPLOYMENT.md)
+- **💻 Local Usage**: See [LOCAL-USAGE.md](LOCAL-USAGE.md)
 
 ## 🤝 Contributing
 
